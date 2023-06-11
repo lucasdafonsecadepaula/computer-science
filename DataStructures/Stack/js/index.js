@@ -4,7 +4,7 @@ class Stack {
   }
 
   push(element) {
-    return this.items.push(element);
+    this.items.push(element);
   }
 
   pop() {
